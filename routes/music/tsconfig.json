@@ -1,0 +1,35 @@
+{
+    "version": "1.5.0",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./app/ts/app.ts",
+        "./app/ts/components/AlbumComponent.ts",
+        "./app/ts/components/ArtistComponent.ts",
+        "./app/ts/components/SearchComponent.ts",
+        "./app/ts/components/TrackComponent.ts",
+        "./app/ts/services/SpotifyService.ts",
+        "./typings/moment/moment-node.d.ts",
+        "./typings/moment/moment.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/underscore/underscore.d.ts",
+        "./vendor.ts"
+    ],
+    "compileOnSave": false,
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
